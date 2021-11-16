@@ -43,6 +43,9 @@ define('TOOL_OBJECTFS_DELETE_EXTERNAL_NO', 0);
 define('TOOL_OBJECTFS_DELETE_EXTERNAL_TRASH', 1);
 define('TOOL_OBJECTFS_DELETE_EXTERNAL_FULL', 2);
 
+
+define('REQUIRE_SESSION_LOCK', false);
+
 // Legacy cron function.
 function tool_objectfs_cron() {
     mtrace('RUNNING legacy cron objectfs');
